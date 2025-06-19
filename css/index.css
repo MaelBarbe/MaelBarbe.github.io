@@ -20,6 +20,12 @@ main {
     font-size: 2em;
 }
 
+.projets {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
 .projets-container {
     display: flex;
     flex-direction: column;
