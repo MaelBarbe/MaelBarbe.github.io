@@ -1,0 +1,29 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 3em 5em 3em;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-header ul {
+    display: flex;
+    gap: 2em;
+}
+
+.navbar-header ul li {
+    list-style: none;
+}
+
+.navbar-header a {
+    text-decoration: none;
+    color: white;
+}
