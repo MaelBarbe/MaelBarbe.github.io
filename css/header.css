@@ -27,3 +27,8 @@
     text-decoration: none;
     color: white;
 }
+
+.navbar-header a:hover {
+    text-decoration: underline;
+    color: red;
+}

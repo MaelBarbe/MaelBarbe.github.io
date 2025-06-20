@@ -1,6 +1,7 @@
-@import url(/css/header.css);
-@import url(/css/responsive.css);
-@import url(/css/index.css);
+@import url('/css/header.css');
+@import url('/css/responsive.css');
+@import url('/css/index.css');
+@import url('/css/footer.css');
 
 * {
     font-family: Arial, Helvetica, sans-serif;
