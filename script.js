@@ -3,7 +3,7 @@
 // Sélectionne l'élément où insérer le menu
 const header = document.getElementById("header");
 
-// Charge le fichier menu.html
+// Charge le fichier header.html
 fetch("/html/header.html")
     .then((response) => {
         if (!response.ok) {
@@ -16,4 +16,22 @@ fetch("/html/header.html")
     })
     .catch((error) => {
         console.error("Erreur :", error);
+    });
+
+
+// import du footer 
+
+const footer = document.getElementById('footer');
+fetch('/html/footer.html')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Erreur lors du chargement du menu');
+        }
+        return response.text();
+    })
+    .then(data => {
+        footer.innerHTML = data;
+    })
+    .catch(error => {
+        console.error('Erreur :', error);
     });
