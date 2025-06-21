@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -16,71 +22,50 @@ main {
 .hero-text {
     display: flex;
     justify-content: center;
-    color: white;
-    font-size: 2em;
+    color: black;
+    font-size: 3em;
 }
 
-.projets {
+.projects {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    justify-content: center;
+    gap: 4em;
 }
 
-.projets-container {
-    display: flex;
-    flex-direction: column;
-    max-width: 1440px;
-    gap: 3em;
-}
-
-.projets-container_title {
+.projects_container_title {
     display: flex;
     justify-content: center;
-    color: white;
-    font-size: 1.5em;
+    color: black;
+    font-size: 2.5em;
 }
 
-.projets-cards-container {
+.projects_container {
     display: flex;
-    max-width: 1440px;
-    justify-content: center;
-    gap: 2em;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.projet-card {
+.project_card {
     display: flex;
     flex-direction: column;
-    width: 450px;
-    background-color: black;
-    color: white;
-    gap: 3em;
-    border-radius: 2em;
+    width: 300px;
 }
 
-.projet-card a {
+.project_card a {
     display: flex;
     flex-direction: column;
-    gap: 2em;
-    color: white;
+    gap: 1em;
     text-decoration: none;
-    background-color: black;
-    padding: 3.5em;
-    border-radius: 1em;
+    color: black;
 }
 
-.projet-card_title {
+.project_card h3 {
     display: flex;
     justify-content: center;
-    background-color: black;
 }
 
-.projet-card_desc {
-    background-color: black;
-}
-
-.projet-card_technos {
-    background-color: black;
+.project_card img {
+    border-radius: 1.5em;
 }
 
 .btn-cta {
@@ -89,13 +74,13 @@ main {
     padding: 20px;
     margin: auto;
     color: black;
-    background-color: white;
+    background-color: black;
     border-radius: 50px;
     text-decoration: none;
 }
 
 .btn-cta button {
-    background-color: white;
+    background-color: black;
     color: black;
     border: none;
     cursor: pointer;
@@ -118,14 +103,14 @@ main {
 .skills_title {
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
 }
 
 .skills-cards {
     display: flex;
     flex-direction: column;
     background-color: black;
-    color: white;
+    color: black;
     width: 300px;
     padding: 2em 3em 3em 3em;
     gap: 3em;
