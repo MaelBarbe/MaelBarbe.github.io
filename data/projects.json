@@ -1,51 +1,61 @@
 [
     {
         "name": "Projet numéro 1",
+        "image" : "https://placehold.co/300x150?text=Projet+1",
         "desc": "Reproduction de la page error 404 du site minecraft.net",
         "techno": ["HTML", " CSS", " JavaScript"]
     },
     {
         "name": "Projet numéro 2",
+        "image" : "https://placehold.co/300x150?text=Projet+2",
         "desc": "Reproduction de la page error 404 du site minecraft.net",
         "techno": ["HTML", " JavaScript", " CSS"]
     },
     {
         "name": "Projet numéro 3",
+        "image" : "https://placehold.co/300x150?text=Projet+3",
         "desc": "Reproduction de la page error 404 du site minecraft.net",
         "techno": ["CSS", " JavaScript", " HTML"]
     },
     {
         "name": "Projet numéro 4",
+        "image" : "https://placehold.co/300x150?text=Projet+4",
         "desc": "Reproduction de la page error 404 du site minecraft.net",
         "techno": ["HTML", " CSS", " JavaScript", " PHP"]
     },
     {
         "name": "Projet numéro 5",
+        "image" : "https://placehold.co/300x150?text=Projet+5",
         "desc": "Reproduction de la page error 404 du site minecraft.net",
         "techno": ["HTML", " CSS", " React"]
     },
     {
         "name": "Projet numéro 6",
+        "image" : "https://placehold.co/300x150?text=Projet+6",
         "desc": "Reproduction de la page error 404 du site minecraft.net",
         "techno": ["HTML", " SCSS", " VueJS"]
     },
     {
         "name": "Projet numéro 7",
+        "image" : "https://placehold.co/300x150?text=Projet+7",
         "desc": "Reproduction de la page error 404 du site minecraft.net",
         "techno": ["HTML", " CSS", " JavaScript", " Symfony"]
     },
     {
         "name": "Projet numéro 8",
+        "image" : "https://placehold.co/300x150?text=Projet+8",
         "desc": "Reproduction de la page error 404 du site minecraft.net",
         "techno": ["HTML", " SASS", " JavaScript"]
     },
     {
         "name": "Projet numéro 9",
+        "image" : "https://placehold.co/300x150?text=Projet+9",
         "desc": "Reproduction de la page error 404 du site minecraft.net",
         "techno": ["HTML", " CSS", " Ruby"]
     },
     {
         "name": "Projet numéro 10",
+        "image" : "https://placehold.co/300x150?text=Projet+10",
         "desc": "Reproduction de la page error 404 du site minecraft.net",
         "techno": ["HTML", " CSS", " C#"]
     }
