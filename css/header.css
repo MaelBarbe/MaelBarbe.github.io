@@ -2,7 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2em 3em 5em 3em;
+    margin: 2em 3em 0.75em 3em;
+}
+
+#header {
+    border-bottom: 1px solid;
 }
 
 .logo {
@@ -11,7 +15,7 @@
 
 .logo a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .navbar-header ul {
@@ -25,7 +29,7 @@
 
 .navbar-header a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .navbar-header a:hover {
