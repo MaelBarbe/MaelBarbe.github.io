@@ -9,8 +9,8 @@ fetch('../data/projects.json')
             div.classList.add('project_card');
             div.innerHTML = `
             <a href="#">
-                <h3>${projects.name}</h3>
                 <img src="${projects.image}" alt="${projects.name}">
+                <h3>${projects.name}</h3>
                 <p class="project_desc">${projects.desc}</p>
                 <p class="project_technos">${projects.techno}</p>
             </a>
