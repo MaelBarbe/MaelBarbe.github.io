@@ -10,6 +10,10 @@
 #header {
     border-bottom: 1px solid;
     background-color: #0A001B;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .logo {
@@ -45,5 +49,5 @@
 
 .navbar-header a:hover {
     text-decoration: underline;
-    color: red;
+    color: #a8ebfc;
 }

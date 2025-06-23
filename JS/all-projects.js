@@ -3,8 +3,7 @@ fetch('../data/projects.json')
     .then(projects => {
         const container = document.getElementById('projects_container');
 
-        const lastProjects = projects.slice(-6)
-        lastProjects.forEach(projects => {
+        projects.forEach(projects => {
             const div = document.createElement('div');
             div.classList.add('project_card');
             div.innerHTML = `

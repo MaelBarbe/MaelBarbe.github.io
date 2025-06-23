@@ -26,6 +26,11 @@ main {
     font-size: 3em;
 }
 
+.hero-container img {
+    display: flex;
+    width: 100%;
+}
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -33,7 +38,7 @@ main {
     gap: 4em;
 }
 
-.projects_container_title {
+.projects_title {
     display: flex;
     justify-content: center;
     color: black;
@@ -42,7 +47,9 @@ main {
 
 .projects_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 3em;
+    flex-wrap: wrap;
 }
 
 .project_card {
@@ -59,7 +66,6 @@ main {
     color: black;
     padding: 1.5em;
     border-radius: 35px;
-    border: 1px solid #ddf6fc;
     filter: drop-shadow(0px 0px 18px #ddf6fc);
 }
 
