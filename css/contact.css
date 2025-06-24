@@ -1,3 +1,38 @@
 .contact_form {
-    color: black;
+    padding: 2em;
+    border-radius: 1.5em;
+    filter: drop-shadow(0 0 0.2em rgb(129, 129, 129));
+    background-color: #ddf6fc;
+}
+
+.contact_form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #ddf6fc;
+}
+
+.contact_form-last_name,
+.contact_form-first_name,
+.contact_form-email,
+.contact_form-msg,
+.contact_form-data,
+.contact_form-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    background-color: #ddf6fc;
+}
+
+.contact_form form div input {
+    border: 1px solid black;
+}
+
+.contact_form label {
+    background-color: #ddf6fc;
+}
+
+.contact_form-data {
+    display: flex;
+    flex-direction: row;
 }
