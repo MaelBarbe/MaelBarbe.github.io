@@ -44,3 +44,19 @@
     text-decoration: underline;
     color: #a8ebfc;
 }
+
+.rs{
+    display: flex;
+    background-color: #0A001B;
+    gap: 1em;
+}
+
+.rs_icon img{
+    width: 30px;
+    height: 30px;
+    background-color: #0A001B;
+}
+
+.rs_icon {
+    background-color: #0A001B;
+}
