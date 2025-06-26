@@ -78,6 +78,15 @@ main {
     border-radius: 1.5em;
 }
 
+.project_desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 50px;
+}
+
 .btn-cta {
     display: flex;
     justify-content: center;
