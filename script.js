@@ -4,7 +4,7 @@
 const header = document.getElementById("header");
 
 // Charge le fichier header.html
-fetch("/components/header.html")
+fetch("/components/header/header.html")
     .then((response) => {
         if (!response.ok) {
             throw new Error("Erreur lors du chargement du menu");
@@ -22,7 +22,7 @@ fetch("/components/header.html")
 // import du footer 
 
 const footer = document.getElementById('footer');
-fetch('/components/footer.html')
+fetch('/components/footer/footer.html')
     .then(response => {
         if (!response.ok) {
             throw new Error('Erreur lors du chargement du menu');

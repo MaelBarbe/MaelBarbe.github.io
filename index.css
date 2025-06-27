@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1440px;
+    margin: auto;
+    gap: 100px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 3em;
+}
+
+.hero-container img {
+    display: flex;
+    width: 100%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.skills-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+    justify-content: center;
+}
+
+.skills_title {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.skills-cards {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: black;
+    width: 300px;
+    padding: 2em 3em 3em 3em;
+    gap: 3em;
+    border-radius: 2em;
+}
+
+.skills-cards ul {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    gap: 1em;
+}
+
+.skills-cards ul li {
+    background-color: black;
+}
+
+.skills-cards h3 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
