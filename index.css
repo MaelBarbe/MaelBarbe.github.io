@@ -31,6 +31,81 @@ main {
     width: 100%;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4em;
+}
+
+.projects_title {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2.5em;
+}
+
+.projects_container {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+.project_card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.project_card a {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-decoration: none;
+    color: black;
+    padding: 1.5em;
+    border-radius: 35px;
+    filter: drop-shadow(0px 0px 18px #ddf6fc);
+}
+
+.project_card h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.project_card img {
+    border-radius: 1.5em;
+}
+
+.project_desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 50px;
+}
+
+.btn-cta {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+    color: white;
+    background-color: #0A001B;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.btn-cta button {
+    background-color: #0A001B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
 .skills {
     display: flex;
     flex-direction: column;
