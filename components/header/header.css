@@ -51,3 +51,45 @@
     width: 30px;
     height: 30px;
 }
+
+#burger_btn {
+    display: none;
+    border: none;
+}
+
+.line1, .line3 {
+    width: 30px;
+    height: 6px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.line2 {
+    width: 20px;
+    height: 6px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+#navbar_links.active {
+    display: flex;
+}
+
+@media (max-width:768px) {
+    .rs {
+        display: none;
+    }
+
+    #burger_btn {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        justify-content: center;
+        align-items: center;
+        background-color: #0A001B;
+    }
+
+    .navbar-header ul{
+        display: none;
+    }
+}
