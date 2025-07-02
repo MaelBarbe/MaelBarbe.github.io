@@ -1,67 +1,42 @@
-// import-menu.js
+// // import du footer 
 
-// // Sélectionne l'élément où insérer le menu
-// const header = document.getElementById("header");
-
-// // Charge le fichier header.html
-// fetch("/components/header/header.html")
-//     .then((response) => {
+// const footer = document.getElementById('footer');
+// fetch('/components/footer/footer.html')
+//     .then(response => {
 //         if (!response.ok) {
-//             throw new Error("Erreur lors du chargement du menu");
+//             throw new Error('Erreur lors du chargement du menu');
 //         }
 //         return response.text();
 //     })
-//     .then((data) => {
-//         header.innerHTML = data;
+//     .then(data => {
+//         footer.innerHTML = data;
 //     })
-//     .catch((error) => {
-//         console.error("Erreur :", error);
+//     .catch(error => {
+//         console.error('Erreur :', error);
 //     });
 
-const header = document.getElementById("header");
+// document.addEventListener('DOMContentLoaded', chargerMenu);
 
-// Charge le fichier header.html
-fetch("/components/header/header.html")
-    .then((response) => {
-        if (!response.ok) {
-            throw new Error("Erreur lors du chargement du menu");
-        }
-        return response.text();
-    })
-    .then((data) => {
-        header.innerHTML = data;
+// async function chargerMenu() {
+//     try {
+//         const header = document.getElementById('header');
+//         const reponse = await fetch('components/header/header.html');
 
-        // 👉 le DOM contient désormais le menu, on peut sélectionner les éléments
-        const burger = document.getElementById('burger_btn');
-        const navLinks = document.getElementById('nav-links');
+//         if (!reponse.ok) {
+//             throw new Error('Erreur lors du chargement du menu');
+//         }
 
-        if (burger_btn && navLinks) {
-            burger.addEventListener('click', () => {
-                navLinks.classList.toggle('active');
-                burger_btn.classList.toggle('open');
-            });
-        } else {
-            console.error("Les éléments burger ou nav-links ne sont pas trouvés.");
-        }
-    })
-    .catch((error) => {
-        console.error("Erreur :", error);
-    });
+//         const html = await reponse.text();
+//         header.innerHTML = html;
 
+//     } catch (erreur) {
+//         console.error('Erreur :', erreur);
+//     }
+//     const navlinks = document.getElementById("nav-links");
+//     const burgerbtn = document.getElementById("burger_btn");
 
-// import du footer 
-
-const footer = document.getElementById('footer');
-fetch('/components/footer/footer.html')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Erreur lors du chargement du menu');
-        }
-        return response.text();
-    })
-    .then(data => {
-        footer.innerHTML = data;
-    })
-    .catch(error => {
-        console.error('Erreur :', error);
-    });
+//     burgerbtn.addEventListener("click", () => {
+//         navlinks.classList.toggle("active");
+//         burgerbtn.classList.toggle("open");
+//     })
+// }
