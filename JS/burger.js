@@ -1,6 +1,6 @@
-const navlinks = document.getElementById("navlinks");
+const navlinks = document.getElementById("nav-links");
 const burgerbtn = document.getElementById("burger_btn");
 
-burgerbtn.addEventListener("click", () => {
+navlinks.addEventListener("click", () => {
     navlinks.classList.toggle("active");
 })
