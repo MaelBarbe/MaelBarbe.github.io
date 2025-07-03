@@ -1,0 +1,1 @@
+const navbarfooter = document.getElementById("navbar-footer")
