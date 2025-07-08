@@ -1,8 +1,7 @@
 #header {
-    border-bottom: 1px solid;
-    background-color: #0A001B;
     width: 100%;
     color: white;
+    border-bottom: 1px solid white;
 }
 
 #header a {
