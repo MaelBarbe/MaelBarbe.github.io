@@ -1,99 +1,114 @@
 <!DOCTYPE html>
-<html lang="fr">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mes projets</title>
     <link rel="stylesheet" href="../../main.css">
-    <link rel="stylesheet" href="projects.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
-<body class="main-bg-color">
+<body class="bg-gray-900 text-white min-h-screen">
     <header id="header"></header>
     <main>
-        <section class="projects">
-            <h1 class="projects_pages_title">Projets</h1>
-            <div class="projects_container" id="projects_container">
-                <div class="project_card">
+        <section class="flex flex-col items-center pt-10 gap-16">
+            <h1 class="text-5xl text-center font-bold">Projets</h1>
+
+            <div id="projects_container" class="flex flex-wrap justify-center gap-12">
+                <div class="relative w-[300px] h-[200px] rounded-xl shadow-lg overflow-hidden group cursor-pointer">
                     <a href="/pages/project/project1.html">
-                        <img src="https://placehold.co/300x300" alt="Projet 1">
-                        <div class="project_overlay">
-                            <h3>Projet 1</h3>
-                            <p>Une application web moderne</p>
+                        <img src="https://placehold.co/300x300" alt="Projet 1" class="w-full h-full object-cover" />
+                        <div
+                            class="absolute inset-0 bg-blue-500 bg-opacity-70 text-white flex flex-col justify-center items-center transition-all duration-300 ease-in-out group-hover:scale-110 group-hover:bg-transparent group-hover:text-black">
+                            <h3 class="text-xl font-semibold">Projet 1</h3>
+                            <p class="text-sm mt-1">Une application web moderne</p>
                         </div>
                     </a>
                 </div>
-                <div class="project_card">
+
+                <div class="relative w-[300px] h-[200px] rounded-xl shadow-lg overflow-hidden group cursor-pointer">
                     <a href="/pages/project/project2.html">
-                        <img src="https://placehold.co/300x300" alt="Projet 2">
-                        <div class="project_overlay">
-                            <h3>Projet 2</h3>
-                            <p>Une application web moderne</p>
+                        <img src="https://placehold.co/300x300" alt="Projet 2" class="w-full h-full object-cover" />
+                        <div
+                            class="absolute inset-0 bg-blue-500 bg-opacity-70 text-white flex flex-col justify-center items-center transition-all duration-300 ease-in-out group-hover:scale-110 group-hover:bg-transparent group-hover:text-black">
+                            <h3 class="text-xl font-semibold">Projet 2</h3>
+                            <p class="text-sm mt-1">Une application web moderne</p>
                         </div>
                     </a>
                 </div>
-                <div class="project_card">
-                    <a href="/pages/project/project3.html">
-                        <img src="https://placehold.co/300x300" alt="Projet 3">
-                        <div class="project_overlay">
-                            <h3>Projet 3</h3>
-                            <p>Une application web moderne</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="project_card">
-                    <a href="/pages/project/project1.html">
-                        <img src="https://placehold.co/300x300" alt="Projet 1">
-                        <div class="project_overlay">
-                            <h3>Projet 1</h3>
-                            <p>Une application web moderne</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="project_card">
+
+                <div class="relative w-[300px] h-[200px] rounded-xl shadow-lg overflow-hidden group cursor-pointer">
                     <a href="/pages/project/project2.html">
-                        <img src="https://placehold.co/300x300" alt="Projet 2">
-                        <div class="project_overlay">
-                            <h3>Projet 2</h3>
-                            <p>Une application web moderne</p>
+                        <img src="https://placehold.co/300x300" alt="Projet 2" class="w-full h-full object-cover" />
+                        <div
+                            class="absolute inset-0 bg-blue-500 bg-opacity-70 text-white flex flex-col justify-center items-center transition-all duration-300 ease-in-out group-hover:scale-110 group-hover:bg-transparent group-hover:text-black">
+                            <h3 class="text-xl font-semibold">Projet 2</h3>
+                            <p class="text-sm mt-1">Une application web moderne</p>
                         </div>
                     </a>
                 </div>
-                <div class="project_card">
-                    <a href="/pages/project/project3.html">
-                        <img src="https://placehold.co/300x300" alt="Projet 3">
-                        <div class="project_overlay">
-                            <h3>Projet 3</h3>
-                            <p>Une application web moderne</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="project_card">
-                    <a href="/pages/project/project1.html">
-                        <img src="https://placehold.co/300x300" alt="Projet 1">
-                        <div class="project_overlay">
-                            <h3>Projet 1</h3>
-                            <p>Une application web moderne</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="project_card">
+
+                <div class="relative w-[300px] h-[200px] rounded-xl shadow-lg overflow-hidden group cursor-pointer">
                     <a href="/pages/project/project2.html">
-                        <img src="https://placehold.co/300x300" alt="Projet 2">
-                        <div class="project_overlay">
-                            <h3>Projet 2</h3>
-                            <p>Une application web moderne</p>
+                        <img src="https://placehold.co/300x300" alt="Projet 2" class="w-full h-full object-cover" />
+                        <div
+                            class="absolute inset-0 bg-blue-500 bg-opacity-70 text-white flex flex-col justify-center items-center transition-all duration-300 ease-in-out group-hover:scale-110 group-hover:bg-transparent group-hover:text-black">
+                            <h3 class="text-xl font-semibold">Projet 2</h3>
+                            <p class="text-sm mt-1">Une application web moderne</p>
                         </div>
                     </a>
                 </div>
+
+                <div class="relative w-[300px] h-[200px] rounded-xl shadow-lg overflow-hidden group cursor-pointer">
+                    <a href="/pages/project/project2.html">
+                        <img src="https://placehold.co/300x300" alt="Projet 2" class="w-full h-full object-cover" />
+                        <div
+                            class="absolute inset-0 bg-blue-500 bg-opacity-70 text-white flex flex-col justify-center items-center transition-all duration-300 ease-in-out group-hover:scale-110 group-hover:bg-transparent group-hover:text-black">
+                            <h3 class="text-xl font-semibold">Projet 2</h3>
+                            <p class="text-sm mt-1">Une application web moderne</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="relative w-[300px] h-[200px] rounded-xl shadow-lg overflow-hidden group cursor-pointer">
+                    <a href="/pages/project/project2.html">
+                        <img src="https://placehold.co/300x300" alt="Projet 2" class="w-full h-full object-cover" />
+                        <div
+                            class="absolute inset-0 bg-blue-500 bg-opacity-70 text-white flex flex-col justify-center items-center transition-all duration-300 ease-in-out group-hover:scale-110 group-hover:bg-transparent group-hover:text-black">
+                            <h3 class="text-xl font-semibold">Projet 2</h3>
+                            <p class="text-sm mt-1">Une application web moderne</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="relative w-[300px] h-[200px] rounded-xl shadow-lg overflow-hidden group cursor-pointer">
+                    <a href="/pages/project/project2.html">
+                        <img src="https://placehold.co/300x300" alt="Projet 2" class="w-full h-full object-cover" />
+                        <div
+                            class="absolute inset-0 bg-blue-500 bg-opacity-70 text-white flex flex-col justify-center items-center transition-all duration-300 ease-in-out group-hover:scale-110 group-hover:bg-transparent group-hover:text-black">
+                            <h3 class="text-xl font-semibold">Projet 2</h3>
+                            <p class="text-sm mt-1">Une application web moderne</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="relative w-[300px] h-[200px] rounded-xl shadow-lg overflow-hidden group cursor-pointer">
+                    <a href="/pages/project/project2.html">
+                        <img src="https://placehold.co/300x300" alt="Projet 2" class="w-full h-full object-cover" />
+                        <div
+                            class="absolute inset-0 bg-blue-500 bg-opacity-70 text-white flex flex-col justify-center items-center transition-all duration-300 ease-in-out group-hover:scale-110 group-hover:bg-transparent group-hover:text-black">
+                            <h3 class="text-xl font-semibold">Projet 2</h3>
+                            <p class="text-sm mt-1">Une application web moderne</p>
+                        </div>
+                    </a>
+                </div>
+
             </div>
         </section>
     </main>
     <footer id="footer"></footer>
+
+    <script src="../../script.js"></script>
+    <script src="../../components/header/header.js"></script>
 </body>
-<script src="../../script.js"></script>
-<script src="../../components/header/header.js"></script>
-<!-- <script src="../JS/all-projects.js"></script> -->
 
 </html>
