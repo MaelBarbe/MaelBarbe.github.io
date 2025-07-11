@@ -1,21 +1,25 @@
-<div class="navbar-container">
-    <p class="logo"><a href="../../index.html">Maël Barbé</a></p>
-    <nav class="navbar-header">
-        <button id="burger_btn">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+<div class="w-full text-white border-b border-white px-12 py-3 flex justify-between items-center">
+    <p class="text-2xl">
+        <a href="../../index.html" class="no-underline text-white">Maël Barbé</a>
+    </p>
+    <nav class="flex items-center gap-6">
+        <button id="burger_btn" class="hidden flex-col gap-[5px] bg-[#0A001B] border-0 cursor-pointer md:flex">
+            <div class="w-[25px] h-[3px] bg-white rounded-[12px] transition-all ease-in-out duration-300 line"></div>
+            <div class="w-[25px] h-[3px] bg-white rounded-[12px] transition-all ease-in-out duration-300 line"></div>
+            <div class="w-[25px] h-[3px] bg-white rounded-[12px] transition-all ease-in-out duration-300 line"></div>
         </button>
-        <ul id="nav-links">
-            <li><a href="../../index.html">Accueil</a></li>
-            <li><a href="../../pages/projects/projects.html">Projets</a></li>
-            <li><a href="../../pages/contact/contact.html">Contact</a></li>
+        <ul id="nav-links" class="hidden md:flex gap-8">
+            <li class="list-none"><a href="../../index.html" class="text-white no-underline hover:underline hover:text-[#a8ebfc]">Accueil</a></li>
+            <li class="list-none"><a href="../../pages/projects/projects.html" class="text-white no-underline hover:underline hover:text-[#a8ebfc]">Projets</a></li>
+            <li class="list-none"><a href="../../pages/contact/contact.html" class="text-white no-underline hover:underline hover:text-[#a8ebfc]">Contact</a></li>
         </ul>
     </nav>
-    <div class="rs">
-        <a class="rs_icon" href="https://github.com/MaelBarbe" target="_blank"><img
-                src="../../assets/rs/github_icon.svg" alt="Lien vers mon GitHub"></a>
-        <a class="rs_icon" href="https://www.linkedin.com/in/mael-barbe/" target="_blank"><img
-                src="../../assets/rs/LinkedIn_icon.svg" alt="Lien vers mon LinkdIn"></a>
+    <div class="hidden md:flex gap-4 rs">
+        <a class="rs_icon" href="https://github.com/MaelBarbe" target="_blank">
+            <img src="../../assets/rs/github_icon.svg" alt="Lien vers mon GitHub" class="w-[30px] h-[30px]" />
+        </a>
+        <a class="rs_icon" href="https://www.linkedin.com/in/mael-barbe/" target="_blank">
+            <img src="../../assets/rs/LinkedIn_icon.svg" alt="Lien vers mon LinkdIn" class="w-[30px] h-[30px]" />
+        </a>
     </div>
 </div>
