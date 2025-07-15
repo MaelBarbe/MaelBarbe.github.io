@@ -19,7 +19,8 @@ async function chargerMenu() {
     const burgerbtn = document.getElementById("burger_btn");
 
     burgerbtn.addEventListener("click", () => {
-        navlinks.classList.toggle("active");
-        burgerbtn.classList.toggle("open");
+        navlinks.classList.toggle("hidden");
+        navlinks.classList.toggle("flex");
+        navlinks.classList.toggle("flex-col");
     })
 }
