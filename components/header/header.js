@@ -17,6 +17,7 @@ async function chargerMenu() {
     }
     const navlinks = document.getElementById("nav-links");
     const burgerbtn = document.getElementById("burger_btn");
+    const navHeader = document.getElementById("nav-header");
 
     burgerbtn.addEventListener("click", () => {
         navlinks.classList.toggle("hidden");
