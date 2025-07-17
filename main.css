@@ -26,3 +26,7 @@ main {
 .main-bg-color {
     background-color: #0b0241;
 }
+
+.group:hover .group-hover\:rotate-y-180 {
+    transform: rotateY(180deg);
+}
