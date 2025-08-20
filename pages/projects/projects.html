@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mes projets</title>
     <link rel="stylesheet" href="../../main.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body class="main-bg-color flex flex-col min-h-screen text-white py-4 px-6">
     <header id="header"></header>
-    <main class="flex-1">
-        <section class="flex flex-col items-center pt-28 gap-16">
+    <main class="pt-28 flex-1">
+        <section class="flex flex-col items-center gap-16">
             <h1 class="text-5xl text-center font-bold">Projets</h1>
 
             <div id="projects_container" class="flex flex-wrap justify-center gap-12">
@@ -94,7 +94,7 @@
             </div>
         </section>
     </main>
-    <footer id="footer"></footer>
+    <footer id="footer" class="mt-auto"></footer>
 
     <script src="/script.js"></script>
     <script src="/components/header/header.js"></script>
