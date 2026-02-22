@@ -9,48 +9,44 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="main-bg-color flex flex-col min-h-screen text-white py-4 px-6">
+<body class="bg-[#F9FAFB] text-zinc-800 flex flex-col min-h-screen selection:bg-zinc-200">
     <header id="header"></header>
-    <main class="pt-28 flex-1">
-        <section class="flex flex-col items-center gap-16">
-            <h1 class="text-5xl text-center font-bold">Projets</h1>
+    <main class="flex-1 flex flex-col items-center px-6 py-20 w-full max-w-6xl mx-auto gap-16">
+        <h1 class="text-5xl md:text-7xl font-light tracking-tight text-zinc-900 text-center">Projets.</h1>
 
-            <div id="projects_container" class="flex flex-wrap justify-center gap-12">
-                <a href="/pages/project/project1.html">
-                    <div class="group w-[300px] h-[200px] rounded-xl shadow-lg overflow-hidden cursor-pointer">
-                        <div class="relative w-full h-full" style="transform-style: preserve-3d;">
-                            <div class="absolute inset-0" style="backface-visibility: hidden;">
-                                <img src="https://placehold.co/300x200" alt="Projet 1"
-                                    class="w-full h-full object-cover rounded-xl hover:scale-105 transition-transform duration-300">
-                            </div>
-                            <div class="absolute inset-0 bg-blue-500 text-white flex flex-col justify-center items-center text-center rounded-xl"
-                                style="transform: rotateY(180deg); backface-visibility: hidden;">
-                                <h3 class="text-lg font-semibold">Script Python pour renommer un grand nombre d'images
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+        <div id="projects_container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 w-full">
 
-                <a href="/pages/project/project2.html">
-                    <div class="group w-[300px] h-[200px] rounded-xl shadow-lg overflow-hidden cursor-pointer"
-                        style="perspective: 1000px;">
+            <a href="/pages/project/project1.html"
+                class="group block w-full rounded-3xl bg-white border border-zinc-200 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden cursor-pointer flex flex-col">
+                <div class="w-full aspect-video overflow-hidden">
+                    <img src="https://placehold.co/600x400" alt="Projet 1"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-8 flex flex-col gap-3">
+                    <h3
+                        class="text-xl font-medium tracking-tight text-zinc-900 group-hover:text-zinc-600 transition-colors">
+                        Script Python - Renommage d'images</h3>
+                    <p class="text-zinc-500 font-light text-sm line-clamp-2">Automatisation de renommage en masse pour
+                        l'homogénéisation d'un répertoire photographique.</p>
+                </div>
+            </a>
 
-                        <div class="relative w-full h-full">
-                            <div class="absolute inset-0" style="backface-visibility: hidden;">
-                                <img src="https://placehold.co/300x200" alt="Projet 1"
-                                    class="w-full h-full object-cover rounded-xl hover:scale-105 transition-transform duration-300">
-                            </div>
-                            <div class="absolute inset-0 bg-blue-500 text-white flex flex-col justify-center items-center text-center rounded-xl"
-                                style="transform: rotateY(180deg); backface-visibility: hidden;">
-                                <h3 class="text-lg font-semibold">Design et intégration photographe</h3>
-                                <p class="text-xs mt-2 px-4">Wireframe, prototypage, intégration site freelance</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </section>
+            <a href="/pages/project/project2.html"
+                class="group block w-full rounded-3xl bg-white border border-zinc-200 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden cursor-pointer flex flex-col">
+                <div class="w-full aspect-video overflow-hidden">
+                    <img src="https://placehold.co/600x400" alt="Projet 2"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-8 flex flex-col gap-3">
+                    <h3
+                        class="text-xl font-medium tracking-tight text-zinc-900 group-hover:text-zinc-600 transition-colors">
+                        Design & Intégration</h3>
+                    <p class="text-zinc-500 font-light text-sm line-clamp-2">Wireframe, prototypage et intégration d'un
+                        site web pour un photographe freelance.</p>
+                </div>
+            </a>
+
+        </div>
     </main>
     <footer id="footer" class="mt-auto"></footer>
 

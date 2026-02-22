@@ -4,35 +4,50 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio Maël Barbé">
-    <title>Portfolio</title>
+    <meta name="description" content="Portfolio Maël Barbé - Product & UX Designer">
+    <title>Portfolio - Maël Barbé</title>
     <link rel="stylesheet" href="main.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="main-bg-color flex flex-col min-h-screen py-4 px-6">
+<body class="bg-[#F9FAFB] text-zinc-800 flex flex-col min-h-screen selection:bg-zinc-200">
     <header id="header"></header>
-    <main class="pt-28 flex-1 flex items-center justify-center">
-        <div class="flex flex-col text-white gap-16 max-w-4xl">
-            <div class="flex flex-col gap-3">
-                <h1 class="text-7xl">Bienvenue,</h1>
-                <p class="text-xl">Après avoir exploré le développement web à travers plusieurs projets et
-                    formations,
-                    j’ai choisi de me
-                    spécialiser dans le design UX/UI afin de créer des expériences utilisateur à la fois intuitives
-                    et
-                    esthétiques. Passionné par l’alliance de la technique et de la créativité, je poursuis
-                    aujourd’hui
-                    mon parcours en concevant des interfaces adaptées aux besoins des utilisateurs.</p>
-                <p> Si vous avez un projet, une idée ou autre, n’hésitez pas à me contacter
-                    <a class="text-[#a8ebfc] underline" href="mailto:mael.barbe47@gmail.com">ici</a>.</p>
+
+    <main class="flex-1 flex items-center justify-center px-6 py-20 w-full max-w-5xl mx-auto">
+        <section class="flex flex-col gap-10 md:gap-14 w-full">
+            <h1 class="text-5xl md:text-7xl font-light tracking-tight text-zinc-900">Bienvenue.</h1>
+            <div class="flex flex-col gap-6 text-lg md:text-xl font-light leading-relaxed text-zinc-600 max-w-3xl">
+                <p>
+                    Après avoir exploré le développement web à travers plusieurs projets et formations,
+                    j’ai choisi de me spécialiser dans le <strong class="font-medium text-zinc-800">design
+                        UX/UI</strong>
+                    afin de créer des expériences utilisateur à la fois intuitives et esthétiques.
+                </p>
+                <p>
+                    Passionné par l’alliance de la technique et de la créativité, je poursuis aujourd’hui
+                    mon parcours en concevant des interfaces adaptées aux besoins des utilisateurs.
+                </p>
+                <div class="pt-4 text-base md:text-lg flex flex-col sm:flex-row gap-2 sm:items-center text-zinc-500">
+                    <p>Si vous avez un projet, une idée ou autre, n’hésitez pas à me contacter</p>
+                    <a class="inline-flex items-center gap-2 text-zinc-900 font-medium underline decoration-1 underline-offset-4 hover:text-zinc-500 transition-colors"
+                        href="mailto:mael.barbe47@gmail.com">
+                        ici
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
             </div>
-        </div>
+        </section>
     </main>
+
     <footer id="footer" class="mt-auto"></footer>
+
+    <script src="/script.js"></script>
+    <script src="/components/header/header.js"></script>
+    <script src="/components/footer/footer.js"></script>
 </body>
-<script src="/script.js"></script>
-<script src="/components/header/header.js"></script>
-<script src="/components/footer/footer.js"></script>
 
 </html>
