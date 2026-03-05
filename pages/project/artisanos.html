@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet - ArtisanOS</title>
+    <link rel="stylesheet" href="../../main.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#F9FAFB] text-zinc-800 flex flex-col min-h-screen selection:bg-zinc-200">
+    <header id="header"></header>
+    <main class="flex-1 flex flex-col px-6 py-20 w-full max-w-5xl mx-auto">
+        <div
+            class="w-full bg-white/80 backdrop-blur-md rounded-3xl shadow-sm p-8 md:p-12 flex flex-col gap-10 md:gap-14 text-zinc-800 border border-zinc-200">
+            <div class="flex justify-center w-full">
+                <img src="https://placehold.co/800x400" alt="Image du projet ArtisanOS"
+                    class="w-full max-w-3xl rounded-2xl shadow-sm object-cover aspect-video">
+            </div>
+            <div class="flex flex-col gap-8 max-w-3xl mx-auto w-full">
+                <h1 class="text-4xl md:text-5xl font-light tracking-tight text-zinc-900 text-center">
+                    ArtisanOS
+                </h1>
+                <p class="text-lg md:text-xl font-light text-zinc-600 text-center">
+                    Plateforme de mise en relation entre artisans et clients
+                </p>
+
+                <div class="flex flex-col gap-6 text-lg md:text-xl font-light leading-relaxed text-zinc-600">
+                    <p>
+                        Dans le cadre d'un stage de 5 semaines, j'ai participé au lancement d'une application
+                        de type « marketplace de services » permettant aux particuliers de trouver rapidement des
+                        artisans locaux qualifiés (travaux, rénovation, dépannage, etc.), sur le modèle d'Airbnb
+                        mais spécialisé dans les métiers manuels.
+                    </p>
+
+                    <div class="pt-4 border-t border-zinc-200">
+                        <h2 class="text-2xl md:text-3xl font-light text-zinc-800 mb-6">Mon rôle principal</h2>
+                        <ul class="space-y-4 ml-6 list-disc text-zinc-600 text-base md:text-lg">
+                            <li>
+                                <span class="font-medium text-zinc-700">Analyse concurrentielle approfondie</span> : Étude des plateformes existantes (StarOfService, Yoojo, Habitatpresto, etc.), identification des forces/faiblesses et opportunités de différenciation.
+                            </li>
+                            <li>
+                                <span class="font-medium text-zinc-700">Création et itération du logo</span> : Exploration de plusieurs directions graphiques (minimaliste, chaleureux/artisanal, moderne/tech), présentations au tuteur, prise en compte des retours et finalisation de la version validée.
+                            </li>
+                            <li>
+                                <span class="font-medium text-zinc-700">Conception de l'interface côté Artisan</span> : Définition des flux principaux (inscription, création/modification de profil, gestion des devis, planning, notifications, messagerie), wireframes mid-fi et high-fi pour les écrans prioritaires.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+                        <div class="bg-zinc-50 rounded-xl p-5 border border-zinc-200">
+                            <p class="text-xs md:text-sm text-zinc-500 uppercase tracking-widest font-semibold">Outils</p>
+                            <p class="mt-3 text-zinc-700 text-base">Figma, Illustrator</p>
+                        </div>
+                        <div class="bg-zinc-50 rounded-xl p-5 border border-zinc-200">
+                            <p class="text-xs md:text-sm text-zinc-500 uppercase tracking-widest font-semibold">Durée</p>
+                            <p class="mt-3 text-zinc-700 text-base">5 semaines</p>
+                        </div>
+                        <div class="bg-zinc-50 rounded-xl p-5 border border-zinc-200">
+                            <p class="text-xs md:text-sm text-zinc-500 uppercase tracking-widest font-semibold">Type</p>
+                            <p class="mt-3 text-zinc-700 text-base">Stage opérationnel</p>
+                        </div>
+                    </div>
+
+                    <p class="pt-4 border-t border-zinc-200">
+                        Ce projet m'a permis de toucher à la fois à la stratégie produit (analyse concurrentielle), à
+                        l'identité visuelle et aux premiers pas en UI mobile dans un contexte réel avec des
+                        allers-retours fréquents avec le tuteur.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer" class="mt-auto"></footer>
+
+    <script src="/script.js"></script>
+    <script src="/components/header/header.js"></script>
+    <script src="/components/footer/footer.js"></script>
+</body>
+
+</html>
