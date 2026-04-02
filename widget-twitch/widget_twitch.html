@@ -28,7 +28,10 @@
                 <img src="twitch-assets/base_idle.png" alt="base_idle" class="asset-image">
                 <div class="asset-info">
                     <div class="asset-name">base_idle.png</div>
-                    <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/base_idle.png</div>
+                    <div class="asset-url-container">
+                        <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/base_idle.png</div>
+                        <button class="copy-btn" onclick="copyToClipboard('https://maelbarbe.github.io/widget-twitch/twitch-assets/base_idle.png', this)">Copier</button>
+                    </div>
                 </div>
             </div>
 
@@ -36,7 +39,10 @@
                 <img src="twitch-assets/clin.png" alt="clin" class="asset-image">
                 <div class="asset-info">
                     <div class="asset-name">clin.png</div>
-                    <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/clin.png</div>
+                    <div class="asset-url-container">
+                        <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/clin.png</div>
+                        <button class="copy-btn" onclick="copyToClipboard('https://maelbarbe.github.io/widget-twitch/twitch-assets/clin.png', this)">Copier</button>
+                    </div>
                 </div>
             </div>
 
@@ -44,7 +50,10 @@
                 <img src="twitch-assets/enervé.png" alt="enervé" class="asset-image">
                 <div class="asset-info">
                     <div class="asset-name">enervé.png</div>
-                    <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/enervé.png</div>
+                    <div class="asset-url-container">
+                        <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/enervé.png</div>
+                        <button class="copy-btn" onclick="copyToClipboard('https://maelbarbe.github.io/widget-twitch/twitch-assets/enervé.png', this)">Copier</button>
+                    </div>
                 </div>
             </div>
 
@@ -52,7 +61,10 @@
                 <img src="twitch-assets/happy.png" alt="happy" class="asset-image">
                 <div class="asset-info">
                     <div class="asset-name">happy.png</div>
-                    <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/happy.png</div>
+                    <div class="asset-url-container">
+                        <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/happy.png</div>
+                        <button class="copy-btn" onclick="copyToClipboard('https://maelbarbe.github.io/widget-twitch/twitch-assets/happy.png', this)">Copier</button>
+                    </div>
                 </div>
             </div>
 
@@ -60,7 +72,10 @@
                 <img src="twitch-assets/shy.png" alt="shy" class="asset-image">
                 <div class="asset-info">
                     <div class="asset-name">shy.png</div>
-                    <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/shy.png</div>
+                    <div class="asset-url-container">
+                        <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/shy.png</div>
+                        <button class="copy-btn" onclick="copyToClipboard('https://maelbarbe.github.io/widget-twitch/twitch-assets/shy.png', this)">Copier</button>
+                    </div>
                 </div>
             </div>
 
@@ -68,7 +83,10 @@
                 <img src="twitch-assets/wtf.png" alt="wtf" class="asset-image">
                 <div class="asset-info">
                     <div class="asset-name">wtf.png</div>
-                    <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/wtf.png</div>
+                    <div class="asset-url-container">
+                        <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/wtf.png</div>
+                        <button class="copy-btn" onclick="copyToClipboard('https://maelbarbe.github.io/widget-twitch/twitch-assets/wtf.png', this)">Copier</button>
+                    </div>
                 </div>
             </div>
 
@@ -76,9 +94,26 @@
                 <img src="twitch-assets/yeux-fermé_idle.png" alt="yeux-fermé_idle" class="asset-image">
                 <div class="asset-info">
                     <div class="asset-name">yeux-fermé_idle.png</div>
-                    <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/yeux-fermé_idle.png</div>
+                    <div class="asset-url-container">
+                        <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/yeux-fermé_idle.png</div>
+                        <button class="copy-btn" onclick="copyToClipboard('https://maelbarbe.github.io/widget-twitch/twitch-assets/yeux-fermé_idle.png', this)">Copier</button>
+                    </div>
                 </div>
             </div>
+
+            <!-- <div class="asset-item">
+                <video controls width="150" style="border-radius: 4px; margin-right: 16px;">
+                    <source src="twitch-assets/test.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la vidéo HTML5.
+                </video>
+                <div class="asset-info">
+                    <div class="asset-name">test.mp4</div>
+                    <div class="asset-url-container">
+                        <div class="asset-url">https://maelbarbe.github.io/widget-twitch/twitch-assets/test.mp4</div>
+                        <button class="copy-btn" onclick="copyToClipboard('https://maelbarbe.github.io/widget-twitch/twitch-assets/test.mp4', this)">Copier</button>
+                    </div>
+                </div>
+            </div> -->
         </div>
     </main>
 
@@ -87,6 +122,19 @@
     <script src="/script.js"></script>
     <script src="/components/header/header.js"></script>
     <script src="/components/footer/footer.js"></script>
+    <script>
+        function copyToClipboard(text, button) {
+            navigator.clipboard.writeText(text).then(() => {
+                const originalText = button.innerText;
+                button.innerText = 'Copié !';
+                setTimeout(() => {
+                    button.innerText = originalText;
+                }, 2000);
+            }).catch(err => {
+                console.error('Erreur lors de la copie:', err);
+            });
+        }
+    </script>
 </body>
 
 </html>
