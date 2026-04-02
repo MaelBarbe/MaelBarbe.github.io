@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet - Widget Twitch Personnalisé</title>
+    <link rel="stylesheet" href="../../main.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#F9FAFB] text-zinc-800 flex flex-col min-h-screen selection:bg-zinc-200">
+    <header id="header"></header>
+    <main class="flex-1 flex flex-col px-6 py-20 w-full max-w-5xl mx-auto">
+        <div
+            class="w-full bg-white/80 backdrop-blur-md rounded-3xl shadow-sm p-8 md:p-12 flex flex-col gap-10 md:gap-14 text-zinc-800 border border-zinc-200">
+            <div class="flex justify-center w-full">
+                <img src="../../assets/img/base_idle.png" alt="Aperçu du Widget Twitch"
+                    class="w-full max-w-3xl rounded-2xl shadow-sm object-contain aspect-video">
+            </div>
+            <div class="flex flex-col gap-8 max-w-3xl mx-auto w-full">
+                <h1 class="text-4xl md:text-5xl font-light tracking-tight text-zinc-900 text-center">
+                    Widget Twitch Personnalisé
+                </h1>
+                <p class="text-lg md:text-xl font-light text-zinc-600 text-center">
+                    Un système de gestion des assets visuels personnalisés pour enrichir l'apparence des streams Twitch.
+                </p>
+
+                <div class="flex flex-col gap-6 text-lg md:text-xl font-light leading-relaxed text-zinc-600">
+                    <p>
+                        Ce projet personnel est un widget Twitch personnalisé conçu pour transformer l'aspect visuel des streams. 
+                        Il propose un système de gestion d'assets graphiques créés sur mesure, permettant 
+                        une meilleure expression visuelle et une image de marque cohérente dans l'univers Twitch.
+                    </p>
+
+                    <div class="pt-4 border-t border-zinc-200">
+                        <h2 class="text-2xl md:text-3xl font-light text-zinc-800 mb-6">Caractéristiques principales</h2>
+                        <ul class="space-y-4 ml-6 list-disc text-zinc-600 text-base md:text-lg">
+                            <li>
+                                <span class="font-medium text-zinc-700">Galerie d'assets organisée</span> : Collection d'images PNG représentant différentes états et émotions (idle, happy, angry, shy, wink, confused) facilement accessibles.
+                            </li>
+                            <li>
+                                <span class="font-medium text-zinc-700">Assets hébergés sur GitHub Pages</span> : Gestion centralisée de tous les fichiers visuels pour un accès rapide et une maintenabilité optimale.
+                            </li>
+                            <li>
+                                <span class="font-medium text-zinc-700">Interface de gestion intuitive</span> : Page dédiée pour visualiser et copier facilement les URLs de tous les assets du widget.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+                        <div class="bg-zinc-50 rounded-xl p-5 border border-zinc-200">
+                            <p class="text-xs md:text-sm text-zinc-500 uppercase tracking-widest font-semibold">Outils</p>
+                            <p class="mt-3 text-zinc-700 text-base">HTML, CSS, JavaScript</p>
+                        </div>
+                        <div class="bg-zinc-50 rounded-xl p-5 border border-zinc-200">
+                            <p class="text-xs md:text-sm text-zinc-500 uppercase tracking-widest font-semibold">Hébergement</p>
+                            <p class="mt-3 text-zinc-700 text-base">GitHub Pages</p>
+                        </div>
+                        <div class="bg-zinc-50 rounded-xl p-5 border border-zinc-200">
+                            <p class="text-xs md:text-sm text-zinc-500 uppercase tracking-widest font-semibold">Type</p>
+                            <p class="mt-3 text-zinc-700 text-base">Projet personnel</p>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 border-t border-zinc-200">
+                        <h2 class="text-2xl md:text-3xl font-light text-zinc-800 mb-6">Ce que j'ai appris</h2>
+                        <p class="mb-4">
+                            Ce projet m'a permis de maîtriser plusieurs aspects du développement web :
+                        </p>
+                        <ul class="space-y-3 ml-6 list-disc text-zinc-600 text-base md:text-lg">
+                            <li>Gestion et organisation efficace d'une galerie d'assets visuels</li>
+                            <li>Optimisation des performances pour le chargement d'images multiples</li>
+                            <li>Déploiement et gestion de projets avec GitHub Pages</li>
+                            <li>Création d'une interface fonctionnelle pour gérer les ressources</li>
+                        </ul>
+                    </div>
+
+                    <div class="pt-4 border-t border-zinc-200 flex flex-wrap gap-4">
+                        <a href="/widget-twitch/widget_twitch.html" class="inline-flex items-center justify-center px-6 py-3 bg-zinc-900 text-white font-medium rounded-lg hover:bg-zinc-800 transition-colors">
+                            Voir les Assets
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer" class="mt-auto"></footer>
+
+    <script src="/script.js"></script>
+    <script src="/components/header/header.js"></script>
+    <script src="/components/footer/footer.js"></script>
+</body>
+
+</html>
