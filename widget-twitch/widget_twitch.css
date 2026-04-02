@@ -1,14 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     background-color: #F9FAFB;
     color: #27272a;
-    font-family: system-ui, -apple-system, sans-serif;
-    padding: 48px 24px;
 }
 
 .container {
