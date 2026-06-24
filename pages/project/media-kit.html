@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet - Média Kit ItsLylla</title>
+    <link rel="stylesheet" href="../../main.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#F9FAFB] text-zinc-800 flex flex-col min-h-screen selection:bg-zinc-200">
+    <header id="header"></header>
+    <main class="flex-1 flex flex-col px-6 py-20 w-full max-w-5xl mx-auto">
+        <div
+            class="w-full bg-white/80 backdrop-blur-md rounded-3xl shadow-sm p-8 md:p-12 flex flex-col gap-10 md:gap-14 text-zinc-800 border border-zinc-200">
+            <div class="flex justify-center w-full">
+                <div class="w-full max-w-3xl rounded-2xl overflow-hidden aspect-video border border-zinc-200 bg-zinc-50 flex items-center justify-center">
+                    <img src="../../assets/img/itslylla.png" alt="Aperçu du Média Kit ItsLylla"
+                        class="w-full h-full object-cover">
+                </div>
+            </div>
+            <div class="flex flex-col gap-8 max-w-3xl mx-auto w-full">
+                <h1 class="text-4xl md:text-5xl font-light tracking-tight text-zinc-900 text-center">
+                    Média Kit - ItsLylla
+                </h1>
+                <p class="text-lg md:text-xl font-light text-zinc-600 text-center">
+                    Un média kit interactif et bilingue pour une streameuse Twitch
+                </p>
+
+                <div class="flex flex-col gap-6 text-lg md:text-xl font-light leading-relaxed text-zinc-600">
+                    <p>
+                        Ce projet consiste en la conception et le développement d'un média kit professionnel et interactif 
+                        pour la streameuse <span class="font-medium text-zinc-800">ItsLylla</span>. 
+                        L'objectif était de créer une page vitrine percutante et immersive permettant de présenter sa marque, 
+                        ses statistiques d'audience, son planning et ses partenariats auprès de marques ou de sponsors potentiels.
+                    </p>
+
+                    <div class="pt-4 border-t border-zinc-200">
+                        <h2 class="text-2xl md:text-3xl font-light text-zinc-800 mb-6">Caractéristiques principales</h2>
+                        <ul class="space-y-4 ml-6 list-disc text-zinc-600 text-base md:text-lg">
+                            <li>
+                                <span class="font-medium text-zinc-700">Identité visuelle forte</span> : Esthétique sombre (dark mode) avec des effets de lueur ("glow") néons violet et fuchsia en accord avec sa DA, les codes visuels du streaming et du gaming.
+                            </li>
+                            <li>
+                                <span class="font-medium text-zinc-700">Gestion bilingue dynamique</span> : Système de traduction en temps réel (Français / Anglais) géré en JavaScript sans rechargement de page.
+                            </li>
+                            <li>
+                                <span class="font-medium text-zinc-700">Intégration sociale & Stats</span> : Présentation claire des chiffres clés (Twitch, TikTok, X, Instagram, YouTube) et liaison vers TwitchTracker.
+                            </li>
+                            <li>
+                                <span class="font-medium text-zinc-700">Planning hebdomadaire interactif</span> : Calendrier de diffusion clair et structuré en fonction de la langue sélectionnée.
+                            </li>
+                            <li>
+                                <span class="font-medium text-zinc-700">Expérience utilisateur soignée</span> : Copie en un clic de l'adresse de contact avec retour visuel animé et transitions fluides.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+                        <div class="bg-zinc-50 rounded-xl p-5 border border-zinc-200">
+                            <p class="text-xs md:text-sm text-zinc-500 uppercase tracking-widest font-semibold">Outils & Tech</p>
+                            <p class="mt-3 text-zinc-700 text-base">HTML5, CSS3, JavaScript, Tailwind CSS</p>
+                        </div>
+                        <div class="bg-zinc-50 rounded-xl p-5 border border-zinc-200">
+                            <p class="text-xs md:text-sm text-zinc-500 uppercase tracking-widest font-semibold">Rôle</p>
+                            <p class="mt-3 text-zinc-700 text-base">Design & Développement</p>
+                        </div>
+                        <div class="bg-zinc-50 rounded-xl p-5 border border-zinc-200">
+                            <p class="text-xs md:text-sm text-zinc-500 uppercase tracking-widest font-semibold">Type</p>
+                            <p class="mt-3 text-zinc-700 text-base">Projet Client / Personnel</p>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 border-t border-zinc-200 flex flex-wrap gap-4">
+                        <a href="https://itslylla.github.io/" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-zinc-900 text-white font-medium rounded-lg hover:bg-zinc-800 transition-colors">
+                            Voir le site
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer" class="mt-auto"></footer>
+
+    <script src="/script.js"></script>
+    <script src="/components/header/header.js"></script>
+    <script src="/components/footer/footer.js"></script>
+</body>
+
+</html>
